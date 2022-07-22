@@ -70,13 +70,13 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jzd-li-YSH">
-                                        <rect key="frame" x="107" y="545.5" width="200" height="272.5"/>
+                                        <rect key="frame" x="127" y="545.5" width="160" height="272.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="63X-X6-eQz">
-                                                <rect key="frame" x="20" y="106" width="160" height="60"/>
+                                                <rect key="frame" x="0.0" y="106" width="160" height="60"/>
                                                 <color key="backgroundColor" red="0.56078433989999998" green="0.1607843041" blue="0.14901961389999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="160" id="1kW-G2-9MC"/>
+                                                    <constraint firstAttribute="width" constant="160" id="1kW-G2-9MC"/>
                                                     <constraint firstAttribute="height" constant="60" id="B0Z-IJ-PNb"/>
                                                 </constraints>
                                                 <state key="normal" title="Button"/>
@@ -91,7 +91,9 @@
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="63X-X6-eQz" secondAttribute="trailing" id="2uE-LB-FOP"/>
                                             <constraint firstItem="63X-X6-eQz" firstAttribute="centerX" secondItem="jzd-li-YSH" secondAttribute="centerX" id="6Df-lb-02z"/>
+                                            <constraint firstItem="63X-X6-eQz" firstAttribute="leading" secondItem="jzd-li-YSH" secondAttribute="leading" id="9i1-jK-11H"/>
                                             <constraint firstItem="63X-X6-eQz" firstAttribute="centerY" secondItem="jzd-li-YSH" secondAttribute="centerY" id="UC4-Bv-hgB"/>
                                         </constraints>
                                     </view>

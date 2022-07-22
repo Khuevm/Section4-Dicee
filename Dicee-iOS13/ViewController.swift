@@ -19,9 +19,19 @@ class ViewController: UIViewController {
     }
 
     @IBAction func rollButtonDidTap(_ sender: UIButton) {
+        rollDice()
+    }
+    
+    //Roll Dice when shake
+    override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
+        if motion == .motionShake {
+            rollDice()
+        }
+    }
+    
+    func rollDice(){
         diceImageView1.image = diceArray.randomElement()
         diceImageView2.image = diceArray.randomElement()
     }
-    
 }
 
